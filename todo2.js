@@ -7,7 +7,7 @@ const TODOS = "todos";
 
 function writeToDo(currentValue) {
     const toDoContent = document.createElement('li');
-    toDoContent.innerText = currentValue;
+    toDoContent.innerText = `a${currentValue}`
     toDoList.appendChild(toDoContent);
 
 
